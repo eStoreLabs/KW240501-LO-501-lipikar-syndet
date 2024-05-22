@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="ee">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Roche-Posay</title>
+  <style>
+    /* Locator Web Light */
+@font-face {
+  font-family: 'LocatorWeb';
+  src: url("assets/fonts/LocatorWebLight/LocatorWebLight.eot");
+  src: url("assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Locator Web Medium */
+@font-face {
+  font-family: 'LocatorWeb';
+  src: url("assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
+  src: url("assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Futura PT Demi  */
+@font-face {
+  font-family: 'FuturaPT';
+  src: url("assets/fonts/FuturaPTDemi.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  font-weight: 500;
+}
+
+#es-effaclar.es-effaclar {
+  font-family: "LocatorWeb", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.2;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+  background: #fff;
+}
+
+#es-effaclar.es-effaclar h2,
+#es-effaclar.es-effaclar h3,
+#es-effaclar.es-effaclar h4,
+#es-effaclar.es-effaclar h5 {
+  font-family: "LocatorWeb", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+#es-effaclar.es-effaclar * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#es-effaclar.es-effaclar .es-kv {
+  position: relative;
+}
+
+#es-effaclar.es-effaclar .es-kv__logo {
+  padding-left: 5%;
+  padding-bottom: 20px;
+}
+
+#es-effaclar.es-effaclar .es-kv__logo img {
+  display: block;
+  max-width: 200px;
+}
+
+#es-effaclar.es-effaclar .es-kv__logo-2 {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 120px;
+  padding-bottom: 20px;
+}
+
+#es-effaclar.es-effaclar .es-kv__logo-2 img {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+#es-effaclar.es-effaclar .es-kv__logo-2--desc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: 'FuturaPT';
+  font-weight: inherit;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  z-index: 4;
+}
+
+#es-effaclar.es-effaclar .es-kv__wrapper {
+  min-height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#es-effaclar.es-effaclar .es-kv__left {
+  padding-bottom: 10px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  /*opacity: 0; */
+}
+#es-effaclar.es-effaclar .es-kv__left span {
+  font-size: 15px;
+}
+
+#es-effaclar.es-effaclar .es-kv__img-packshot {
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--logo {
+  margin-left: 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--desktop {
+  display: none;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--badge {
+  padding: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--stamp {
+  margin-left: 0;
+  width: 90px;
+  margin-right: 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__cap {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 16px;
+  text-align: right;
+  font-weight: 200;
+  padding: 16px 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__packshot {
+  padding: 16px 0;
+  opacity: 1;
+  position: relative;
+  z-index: 3;
+}
+
+#es-effaclar.es-effaclar .es-kv__packshot:hover .es-kv__img-packshot {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#es-effaclar.es-effaclar .es-kv__right {
+  opacity: 1; 
+
+}
+
+#es-effaclar.es-effaclar .es-kv__nr1 {
+  max-width: 260px;
+}
+
+#es-effaclar.es-effaclar .es-kv__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+}
+
+#es-effaclar.es-effaclar .es-kv__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 13px;
+}
+
+#es-effaclar.es-effaclar .es-kv__text span {
+  font-family: "Montserrat", sans-serif;
+}
+
+#es-effaclar.es-effaclar .es-kv__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#es-effaclar.es-effaclar .es-kv__photo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#es-effaclar.es-effaclar .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding: 16px;
+  text-align: right;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 16px;
+  min-width: 265px;
+}
+
+#es-effaclar.es-effaclar .es-kv__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  color: #009ee3;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp-text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 12px;
+  padding-left: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp-text span {
+  font-weight: 400;
+}
+
+#es-effaclar.es-effaclar .es-serum {
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+
+#es-effaclar.es-effaclar .es-kv {
+  margin-bottom: 60px;
+}
+
+#es-effaclar.es-effaclar .es-kv__header {
+  min-height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#es-effaclar.es-effaclar .es-kv__logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-effaclar.es-effaclar .es-kv__img-packshot {
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--logo {
+  margin-left: 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--desktop {
+  display: none;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--badge {
+  padding: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__img--stamp {
+  margin-left: 0;
+  width: 90px;
+  margin-right: 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__cap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 16px;
+  text-align: right;
+  font-weight: 200;
+  padding: 16px 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__packshot {
+  padding: 16px 0;
+  opacity: 1;
+  position: relative;
+  z-index: 3;
+}
+
+#es-effaclar.es-effaclar .es-kv__packshot:hover .es-kv__img-packshot {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#es-effaclar.es-effaclar .es-kv__content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#es-effaclar.es-effaclar .es-kv__photo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#es-effaclar.es-effaclar .es-kv__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding: 16px;
+  text-align: right;
+  font-family: "LocatorWeb", sans-serif;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0 16px;
+  min-width: 265px;
+}
+
+#es-effaclar.es-effaclar .es-kv__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  color: #009ee3;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp-text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 12px;
+  padding-left: 16px;
+}
+
+#es-effaclar.es-effaclar .es-kv__stamp-text span {
+  font-weight: 400;
+}
+
+#es-effaclar.es-effaclar .es-serum {
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+#es-effaclar.es-effaclar .es-serum__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 28px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#es-effaclar.es-effaclar .es-serum__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#es-effaclar.es-effaclar .es-serum__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px 16px;
+  margin: 0 auto;
+  margin-top: 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#es-effaclar.es-effaclar .es-serum__feature {
+  width: 140px;
+}
+
+#es-effaclar.es-effaclar .es-serum__feature:hover .es-serum__icon {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#es-effaclar.es-effaclar .es-serum__icon {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+#es-effaclar.es-effaclar .es-serum__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-effaclar.es-effaclar .es-serum__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  font-size: 11px;
+  text-align: center;
+  font-weight: 400;
+  margin: 16px 0;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+#es-effaclar.es-effaclar .es-res {
+  margin-bottom: 40px;
+}
+
+#es-effaclar.es-effaclar .es-res__wrapper {
+  background: url("assets/img/info-mb.jpg") center no-repeat;
+  background-size: cover;
+  padding: 32px 16px;
+}
+
+#es-effaclar.es-effaclar .es-res__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 27px;
+  font-weight: 200;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+#es-effaclar.es-effaclar .es-res__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 520px;
+  margin: 0 auto;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+#es-effaclar.es-effaclar .es-res__single {
+  width: 160px;
+}
+
+#es-effaclar.es-effaclar .es-res__percent {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-weight: 400;
+  font-size: 40px;
+  color: #009ee3;
+  text-align: center;
+  line-height: 1;
+}
+
+#es-effaclar.es-effaclar .es-res__percent sup {
+  font-size: 24px;
+}
+
+#es-effaclar.es-effaclar .es-res__percent small {
+  font-size: 11px;
+}
+
+#es-effaclar.es-effaclar .es-res__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 11px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#es-effaclar.es-effaclar .es-res__disc {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 10px;
+  padding: 16px;
+  text-align: center;
+}
+
+#es-effaclar.es-effaclar .es-res__disclaimer {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  padding: 24px 16px 0 16px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#es-effaclar.es-effaclar .es-ingredients {
+  margin: 0 auto;
+  padding: 0 16px;
+  margin-bottom: 40px;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__container .es-ingredients__single {
+  opacity: 1;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__container:hover .es-ingredients__single {
+  opacity: 0.5;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__container .es-ingredients__single:hover {
+  opacity: 1;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__single {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  max-width: 242px;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__image {
+  position: relative;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 16px;
+  padding: 8px 8px;
+  background: rgba(255, 255, 255, 0.66);
+  position: absolute;
+  top: 24px;
+  left: 0;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__label span {
+  font-weight: 200;
+  font-size: 12px;
+  letter-spacing: -1px;
+  position: relative;
+  top: -4px;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#es-effaclar.es-effaclar .es-ingredients__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+#es-effaclar.es-effaclar .es-use {
+  margin-bottom: 56px;
+}
+
+#es-effaclar.es-effaclar .es-use__wrapper {
+  background: #7dabd7;
+  padding: 24px 16px;
+}
+
+#es-effaclar.es-effaclar .es-use__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding-left: 24px;
+}
+
+#es-effaclar.es-effaclar .es-use__item {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+#es-effaclar.es-effaclar .es-use__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 200;
+}
+
+#es-effaclar.es-effaclar .es-routine__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 28px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+#es-effaclar.es-effaclar .es-routine__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  display: none;
+}
+
+#es-effaclar.es-effaclar .es-routine__container {
+  padding: 16px;
+}
+
+#es-effaclar.es-effaclar .es-routine__single {
+  margin-bottom: 64px;
+}
+
+#es-effaclar.es-effaclar .es-routine__number {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  color: #009ee3;
+  font-size: 156px;
+  font-weight: 700;
+  line-height: 0.75;
+}
+
+#es-effaclar.es-effaclar .es-routine__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+#es-effaclar.es-effaclar .es-routine__subtitle strong {
+  font-size: 24px;
+  display: block;
+}
+
+#es-effaclar.es-effaclar .es-routine__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+#es-effaclar.es-effaclar .es-routine__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  background: #009ee3;
+  padding: 4px 16px;
+  border: 1px solid #009ee3;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#es-effaclar.es-effaclar .es-routine__link:hover {
+  color: #009ee3;
+  background: #fff;
+}
+
+#es-effaclar.es-effaclar .es-routine__packshot {
+  padding-left: 100px;
+}
+
+#es-effaclar.es-effaclar .es-routine__img-packshot {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: -140px;
+  max-height: 400px;
+}
+
+#es-effaclar.es-effaclar .es-obligations {
+  width: 95%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#es-effaclar.es-effaclar .es-obligations__title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: "LocatorWeb", sans-serif;
+  font-weight: inherit;
+  margin: 20px 10px;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+#es-effaclar.es-effaclar .es-obligations__title span {
+  font-family: "LocatorWeb", sans-serif;
+  font-weight: 500;
+}
+
+#es-effaclar.es-effaclar .es-obligations__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 10px;
+}
+
+#es-effaclar.es-effaclar .es-obligations__single {
+  width: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+#es-effaclar.es-effaclar .es-obligations__single:hover .es-obligations__image {
+  transform: scale(1.2);
+}
+
+#es-effaclar.es-effaclar .es-obligations__label {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 4px 10px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-family: "LocatorWeb", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#es-effaclar.es-effaclar .es-obligations__image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+#es-effaclar.es-effaclar .es-disclaimer {
+  margin-bottom: 32px;
+}
+
+#es-effaclar.es-effaclar .es-disclaimer__text {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 535px) {
+  .es-kv__right {
+    order: 3;
+    text-align: center;
+  }
+  #es-effaclar.es-effaclar .es-kv__packshot img {
+    height: 350px;
+  }
+
+  #es-effaclar.es-effaclar .es-routine__img-packshot {
+    max-height: 250px;
+  }
+
+}
+
+@media screen and (max-width: 659px) {
+
+  #es-effaclar.es-effaclar .es-kv__logo{
+  margin-right: 0;
+  padding-left: 0;
+}
+  #es-effaclar.es-effaclar .es-kv__logo img {
+    margin: 0 auto 20px auto;
+  }
+  .es-kv__logo-2{
+  
+    margin-right: 10px;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__logo-2 {
+    left:0;
+    right:0
+  }
+}
+
+@media screen and (min-width: 659px) {
+  .es-kv__logo-2 {
+    position: absolute !important;
+    right: -6%;
+    top: 0;
+
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+#es-effaclar.es-effaclar .es-kv__logo-2 {
+  padding-right: 0;
+}
+
+#es-effaclar.es-effaclar .es-kv__content {
+  flex-basis: 100%;
+}
+#es-effaclar.es-effaclar .es-kv__title {
+  text-align: center;
+}
+#es-effaclar.es-effaclar .es-res__title {
+  text-align: center;
+}
+.es-kv__logo-2 {
+  right: 5%;
+  
+}
+#es-effaclar.es-effaclar .es-kv__stamp {
+  margin-bottom: 35px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+
+  #es-effaclar.es-effaclar .es-kv__logo img {
+    max-width: 250px;
+  }
+  #es-effaclar.es-effaclar .es-kv__logo-2 img {
+    max-width: 320px;
+  }
+  #es-effaclar.es-effaclar .es-kv__logo-2--desc {
+    font-size: 18px;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__header {
+    min-height: 460px;
+    padding-top: 80px;
+    background-position: top 0px right -27px;
+    background-size: 50%;
+    width: 100%;
+  }
+  .es-kv__header {
+    background-image: url("assets/img/bg-kv.png");
+    background-position: top 0 right 0;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    min-height: 460px;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__title {
+    padding: 5px 10px;
+    max-width: 430px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 105px
+    
+  }
+
+  #es-effaclar.es-effaclar .es-kv__stamp {
+    padding-right: 102px;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__img-packshot {
+    height: 450px;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__right {
+    margin-left: 9px;
+    margin-right: 150px;
+    padding-bottom: 30px;
+  }
+  #es-effaclar.es-effaclar .es-obligations__single {
+    width: 460px;
+  }
+  #es-effaclar.es-effaclar .es-use__wrapper {
+    background: url("assets/img/banner.png") no-repeat center right;
+    background-size: cover;
+    height: 442px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin-bottom: 16px;
+  }
+  #es-effaclar.es-effaclar .es-kv__content {
+      flex-basis: 100%;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        width: 50%;
+        padding-bottom: 45px;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: center;
+      }
+  
+  
+  #es-effaclar.es-effaclar .es-kv__title {
+   
+      padding-top: 0;
+      padding-left: 0;
+      font-size: 46px;
+      line-height: 1;
+      padding-right: 50px;
+  }
+  #es-effaclar.es-effaclar .es-kv__photo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+  }
+  #es-effaclar.es-effaclar .es-kv__badge {
+    max-width: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    padding-left: 60px;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__packshot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  #es-effaclar.es-effaclar .es-kv__img--mobile {
+    display: none;
+  }
+  #es-effaclar.es-effaclar .es-kv__img--desktop {
+    display: block;
+    max-width: 110%;
+    position: relative;
+    z-index: 0;
+  }
+  #es-effaclar.es-effaclar .es-kv__img--badge {
+    padding: 0;
+    margin-left: 0;
+    padding-bottom: 16px;
+  }
+  #es-effaclar.es-effaclar .es-kv__img--first {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+
+  #es-effaclar.es-effaclar .es-kv__subtitle {
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 0;
+    font-size: 19px;
+    line-height: 1.1;
+  }
+  #es-effaclar.es-effaclar .es-serum__title, #es-effaclar.es-effaclar .es-res__title, #es-effaclar.es-effaclar .es-ingredients__title, #es-effaclar.es-effaclar .es-routine__title {
+    font-size: 48px;
+  }
+  #es-effaclar.es-effaclar .es-serum__subtitle {
+    font-size: 20px;
+  }
+  #es-effaclar.es-effaclar .es-serum__text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #es-effaclar.es-effaclar .es-serum__container {
+    margin-top: 50px;
+  }
+  #es-effaclar.es-effaclar .es-serum__feature {
+    width: 230px;
+  }
+  #es-effaclar.es-effaclar .es-res {
+    margin-bottom: 64px;
+  }
+  #es-effaclar.es-effaclar .es-res__wrapper {
+    background: url("assets/img/info.png") no-repeat;
+    background-size: cover;
+    padding-left: 80px;
+    height: 517px;
+  }
+  #es-effaclar.es-effaclar .es-res__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+   padding-bottom: 0;
+  }
+
+  #es-effaclar.es-effaclar .es-res__title {
+    max-width: 670px;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  #es-effaclar.es-effaclar .es-res__container {
+    max-width: 800px;
+    margin-bottom: 40px;
+  }
+  #es-effaclar.es-effaclar .es-res__single {
+    width: 250px;
+  }
+  #es-effaclar.es-effaclar .es-res__percent {
+    font-size: 70px;
+  }
+  #es-effaclar.es-effaclar .es-res__percent sup {
+    font-size: 45px;
+  }
+  #es-effaclar.es-effaclar .es-res__text {
+    font-size: 16px;
+  }
+  #es-effaclar.es-effaclar .es-res__disclaimer {
+    max-width: 1000px;
+    margin: 0;
+    font-size: 15px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #es-effaclar.es-effaclar .es-ingredients {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  #es-effaclar.es-effaclar .es-ingredients__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  #es-effaclar.es-effaclar .es-ingredients__title {
+    margin-bottom: 60px;
+  }
+  #es-effaclar.es-effaclar .es-ingredients__text {
+    font-size: 18px;
+  }
+  #es-effaclar.es-effaclar .es-use__title {
+    font-size: 45px;
+    padding: 0;
+  }
+  
+  #es-effaclar.es-effaclar .es-use__content {
+    padding-left: 40px;
+  }
+  #es-effaclar.es-effaclar .es-use__list {
+    max-width: 59%;
+    padding-left: 16px;
+    margin-bottom: 0;
+  }
+
+  #es-effaclar.es-effaclar .es-use__text {
+    font-size: 21px;
+  }
+  #es-effaclar.es-effaclar .es-use__item {
+    font-size: 24px;
+  }
+  #es-effaclar.es-effaclar .es-use__item:last-child {
+    margin-bottom: 0;
+  }
+  #es-effaclar.es-effaclar .es-routine {
+    margin-top: 80px;
+  }
+  #es-effaclar.es-effaclar .es-routine__number {
+    font-size: 190px;
+  }
+  #es-effaclar.es-effaclar .es-routine__subtitle strong {
+    font-size: 28px;
+  }
+  #es-effaclar.es-effaclar .es-routine__subtitle {
+    line-height: 1.1;
+    font-size: 22px;
+  }
+  #es-effaclar.es-effaclar .es-routine__text {
+    max-width: 220px;
+    font-size: 17px;
+  }
+  #es-effaclar.es-effaclar .es-routine__img {
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-width: 110%;
+  }
+  #es-effaclar.es-effaclar .es-routine__container {
+    margin-top: -64px;
+    padding: 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #es-effaclar.es-effaclar .es-routine__single {
+    position: absolute;
+    max-width: 220px;
+    margin-bottom: 0;
+  }
+  #es-effaclar.es-effaclar .es-routine__subtitle {
+    max-width: 200px;
+  }
+  #es-effaclar.es-effaclar .es-routine__single--1 {
+    top: 123px;
+    right: 77px;
+  }
+  #es-effaclar.es-effaclar .es-routine__single--2 {
+    top: 25%;
+    left: 135px
+  }
+  #es-effaclar.es-effaclar .es-routine__single--3 {
+    top: 53.5%;
+    right: 99px;
+  }
+  #es-effaclar.es-effaclar .es-routine__single--4 {
+    top: 71%;
+    left: 76px;
+  }
+
+  #es-effaclar.es-effaclar .es-routine__packshot {
+    display: none;
+  }
+  #es-effaclar.es-effaclar .es-obligations {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
+  </style>
+</head>
+
+<body>
+  <div class="es-effaclar" id="es-effaclar">
+    <div class="es-kv">
+      <div class="es-kv__logo">
+        <img src="assets/img/logo-laroche.png" alt="" class="es-kv__img es-kv__img--logo" />
+      </div>
+      <div class="es-kv__logo-2">
+        <img src="assets/img/logo2.png" alt="">
+        <p class="es-kv__logo-2--desc">PAREM ELU OMA NAHAS</p>
+      </div>
+      <div class="es-kv__container">
+        <div class="es-kv__header">
+          <div class="es-kv__packshot">
+            <img src="assets/img/packshot.png" alt="" class="es-kv__img es-kv__img-packshot" />
+          </div>
+          <div class="es-kv__content">
+            <h2 class="es-kv__title">
+              ERITI<br /> ÕRNATOIMELINE,<br /> LÕHNATU PESUKREEM
+            </h2>
+            <div class="es-kv__stamp">
+              <img src="assets/img/stamp.png" alt="" class="es-kv__img es-kv__img--stamp es-kv__img--first" />
+              <p class="es-kv__subtitle">
+                hooldus esimestest
+                <br />
+                elupäevadest
+              </p>
+            </div>
+          </div>
+          <div class="es-kv__right">
+            <img src="assets/img/logo-nr1.png" alt="La roche logo" class="es-kv__nr1">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-serum">
+      <h3 class="es-serum__title"><strong>LIPIKAR</strong> SYNDET AP+</h3>
+      <p class="es-serum__subtitle">
+        Lipiidikihti täiendav kehapesukreem on loodud igapäevaseks hoolduseks kõigile nahatüüpidele,<br>
+        sh kuivale, atoopiakalduvusega nahale.
+      </p>
+      <div class="es-serum__container">
+        <div class="es-serum__feature">
+          <div class="es-serum__icon">
+            <img src="assets/img/check.png" alt="" class="es-serum__img" />
+          </div>
+          <p class="es-serum__text">
+            RAHUSTAB KOHE JA LEEVENDAB ÄRRITUST
+          </p>
+        </div>
+        <div class="es-serum__feature">
+          <div class="es-serum__icon">
+            <img src="assets/img/check.png" alt="" class="es-serum__img" />
+          </div>
+          <p class="es-serum__text">
+            NIISUTAB KUIVA, ÄRRITUSELE KALDUVAT NAHKA
+          </p>
+        </div>
+        <div class="es-serum__feature">
+          <div class="es-serum__icon">
+            <img src="assets/img/check.png" alt="" class="es-serum__img" />
+          </div>
+          <p class="es-serum__text">
+            MÕJUTAB ATOOPILIST DERMATIITI PÕHJUSTAVAID TEGUREID
+          </p>
+        </div>
+        <div class="es-serum__feature">
+          <div class="es-serum__icon">
+            <img src="assets/img/check.png" alt="" class="es-serum__img" />
+          </div>
+          <p class="es-serum__text">VÄHENDAB NAHA KETENDAMIST</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-res">
+      <div class="es-res__wrapper">
+        <div class="es-res__content">
+          <h3 class="es-res__title">
+            <strong>TÕHUSUSE</strong>JA SUUREPÄRASE<br />
+            TALUVUSE TAGATIS
+          </h3>
+          <div class="es-res__container">
+            <div class="es-res__single">
+              <p class="es-res__percent">100<sup>%</sup></p>
+              <p class="es-res__text">
+                LEIAB, ET ON ÕRNA
+                JA MEELDIVA KONSISTENTSIGA<sup>1</sup>
+              </p>
+            </div>
+            <div class="es-res__single">
+              <p class="es-res__percent">93<sup>%</sup></p>
+              <p class="es-res__text">
+                LEIAB, ET TOETAB NAHA LOOMULIKKU TASAKAALU<sup>1</sup>
+              </p>
+            </div>
+          </div>
+          <div class="es-res__container">
+            <div class="es-res__single">
+              <p class="es-res__percent">93<sup>%</sup></p>
+              <p class="es-res__text">
+                LEIAB, ET JÄTAB<br>
+                NAHA ÕRNAKS<sup>1</sup>
+              </p>
+            </div>
+            <div class="es-res__single">
+              <p class="es-res__percent">91<sup>%</sup></p>
+              <p class="es-res__text">
+                LEIAB, ET JÄTAB NAHA<br> NIISUTATUKS<sup>1</sup>
+              </p>
+            </div>
+            <div class="es-res__single">
+              <p class="es-res__percent">97<sup>%</sup></p>
+              <p class="es-res__text">
+                LEIAB, ET AITAB EEMALDADA BEEBIKÕÕMA<sup>1</sup>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="es-res__disclaimer">
+        <sup>1</sup>Uuring tehtud rühmas, kuhu kuulus 44 vastsündinut vanuses 8 kuni 31 päeva, terve nahaga, kasutades
+        toodet vähemalt üks kord päevas 4 nädala jooksul.
+      </p>
+    </div>
+
+    <div class="es-ingredients">
+      <h3 class="es-ingredients__title">AKTIIVSED KOOSTISOSAD</h3>
+      <div class="es-ingredients__container">
+        <div class="es-ingredients__single">
+          <div class="es-ingredients__image">
+            <img src="assets/img/ingr-1.png" alt="aqua posae filiformis" class="es-ingredients__img" />
+          </div>
+          <p class="es-ingredients__text">
+            Probiootikum, mis taastab naha mikrobioomi tasakaalu, rahustab ja leevendab põletikulist nahka ja vähendab
+            atoopia ägenemise riski.
+          </p>
+        </div>
+        <div class="es-ingredients__single">
+          <div class="es-ingredients__image">
+            <img src="assets/img/ingr-2.png" alt="sheavoi" class="es-ingredients__img" />
+          </div>
+          <p class="es-ingredients__text">
+            Taastab naha loomulikku kaitsekihti.
+          </p>
+        </div>
+        <div class="es-ingredients__single">
+          <div class="es-ingredients__image">
+            <img src="assets/img/ingr-3.png" alt="niatsiinamiid" class="es-ingredients__img" />
+          </div>
+          <p class="es-ingredients__text">
+            Parandab naha kaitsevõimet, vähendab punetust, leevendab ärritust ja sügelust.
+          </p>
+        </div>
+        <div class="es-ingredients__single">
+          <div class="es-ingredients__image">
+            <img src="assets/img/ingr-4.png" alt="termaalvesi la roche posay" class="es-ingredients__img" />
+          </div>
+          <p class="es-ingredients__text">
+            Rahustavate ja leevendavate omadustega.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-use">
+      <div class="es-use__wrapper">
+        <div class="es-use__content">
+          <h3 class="es-use__title">
+            <strong>KASUTAMINE</strong>
+          </h3>
+          <ol class="es-use__list">
+            <li class="es-use__item">
+              <p class="es-use__text">
+                Kanna väike kogus toodet LIPIKAR SYNDET AP+ peopesale ja hajuta veega niisutatud nahale.
+              </p>
+            </li>
+            <li class="es-use__item">
+              <p class="es-use__text">
+                Masseeri õrnalt, seejärel loputa veega maha. Ei tekita silmades kipitust.
+              </p>
+            </li>
+            <li class="es-use__item">
+              <p class="es-use__text">
+                Pärast loputamist kanna nahale ärritusevastane palsam LIPIKAR BALSAM AP+, et leevendada naha äärmuslikku
+                kuivust.
+
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-routine">
+      <h3 class="es-routine__title"><strong>HOOLDUSRUTIIN</strong></h3>
+      <div class="es-routine__container">
+        <img src="assets/img/bg2.png" alt="" class="es-routine__img" />
+        <div class="es-routine__single es-routine__single--1">
+          <div class="es-routine__packshot">
+            <img src="assets/img/routine-1.png" alt="" class="es-routine__img-packshot" />
+          </div>
+          <p class="es-routine__number">1</p>
+          <p class="es-routine__subtitle">
+            <strong>LIPIKAR <br />SYNDET AP+</strong> PESUKREEM KUIVALE JA ATOOPILISELE NAHALE
+          </p>
+          <p class="es-routine__text">
+            Kohene rahustav ja <br> leevendav toime. Parandab naha loomulikku kaitsekihti.
+          </p>
+          <a href="https://www.superpharm.pl/la-roche-posay-lipikar-syndet-ap-1308-400-ml-120093.html" target="_blank"
+            class="es-routine__link">TUTVU</a>
+        </div>
+        <div class="es-routine__single es-routine__single--2">
+          <div class="es-routine__packshot">
+            <img src="assets/img/routine-2.jpg" alt="" class="es-routine__img-packshot" />
+          </div>
+          <p class="es-routine__number">2</p>
+          <p class="es-routine__subtitle">
+            <strong>LIPIKAR </strong> LIPIKAR BALSAM AP+M
+          </p>
+          <p class="es-routine__text">
+            Kolmekordse toimega uuendav ihupiim, mis on mõeldud kuivale, väga kuivale ja <br> atoopiakalduvusega<br> nahale.
+          </p>
+          <a href="https://www.superpharm.pl/la-roche-posay-lipikar-ap-m-18183-400-ml-140988.html" target="_blank"
+            class="es-routine__link">TUTVU</a>
+        </div>
+        <div class="es-routine__single es-routine__single--3">
+          <div class="es-routine__packshot">
+            <img src="assets/img/routine-3.png" alt="" class="es-routine__img-packshot" />
+          </div>
+          <p class="es-routine__number">3</p>
+          <p class="es-routine__subtitle">
+            <strong>CICAPLAST baume B5+</strong>TUGEVATOIMELINE TAASTAV JA RAHUSTAV PALSAM
+          </p>
+          <p class="es-routine__text">
+            Tõhusalt nahka taastav toime alates esimesest päevast. Rahustab kohe, kiirendab ja toetab epidermise<br>
+            taastumise protsessi ja vähendab nahadefektide nähtavust.
+          </p>
+          <a href="https://www.superpharm.pl/la-roche-posay-cicaplast-b5-1287-40-ml-88085.html" target="_blank"
+            class="es-routine__link">TUTVU</a>
+        </div>
+        <div class="es-routine__single es-routine__single--4">
+          <div class="es-routine__packshot">
+            <img src="assets/img/routine-4.jpg" alt="" class="es-routine__img-packshot" />
+          </div>
+          <p class="es-routine__number">4</p>
+          <p class="es-routine__subtitle">
+            <strong>CICAPLAST</strong> KÄTEKREEM
+          </p>
+          <p class="es-routine__text">
+            Loodud rikutud kätele,<br> mis vajavad intensiivset taastamist.
+          </p>
+          <a href="https://www.superpharm.pl/la-roche-posay-cicaplast-mains-b5-1180-50-ml-99034.html" target="_blank"
+            class="es-routine__link">TUTVU</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="es-obligations">
+      <h3 class="es-obligations__title"><br class="es-mobile-break"><span>la roche-posay</span> LUBADUSED</h3>
+      <div class="es-obligations__wrapper">
+        <div class="es-obligations__single">
+          <img src="assets/img/obligations-1.png" alt="" class="es-obligations__image">
+          <p class="es-obligations__label">100% TOODETEST ON TESTITUD<br>
+            ALLERGIAOHUTUSE SEISUKOHAST</p>
+        </div>
+        <div class="es-obligations__single">
+          <img src="assets/img/obligations-2.png" alt="" class="es-obligations__image">
+          <p class="es-obligations__label">AINULT OLULISED AKTIIVSED KOOSTISOSAD
+            OPTIMAALSES KONTSENTRATSIOONIS</p>
+        </div>
+        <div class="es-obligations__single">
+          <img src="assets/img/obligations-3.png" alt="" class="es-obligations__image">
+          <p class="es-obligations__label">AJATUD KOOSTISED</p>
+        </div>
+        <div class="es-obligations__single">
+          <img src="assets/img/obligations-4.png" alt="" class="es-obligations__image">
+          <p class="es-obligations__label">TESTITUD VÄGA TUNDLIKUL NAHAL</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
